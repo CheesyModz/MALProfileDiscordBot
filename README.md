@@ -9,6 +9,11 @@ The code is very simple and easy to understand
 
 Allows you to flex your MAL profile to your friend's on discord.
 
+# How to use
+Once you have everything set up, type the command `??mal username`
+
+For example `??mal CheeseyModz`
+
 
 # How to install and run (Windows Users)
 1. Download python
