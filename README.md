@@ -26,7 +26,7 @@ For example `??mal CheeseyModz`
 8. At the top, press the 3 dots
 9. Go to `help` then `About Google Chrome`
 10. You should see your current version of Google Chrome
-11. Go to `https://chromedriver.chromium.org/downloads` or download the one provided above (Version ChromeDriver 95.0.4638.17)
+11. Go to https://chromedriver.chromium.org/downloads or download the one provided above (Version ChromeDriver 95.0.4638.17)
 12. Download the ChromeDriver accordingly to your chrome version and operating system
 13. One you have the file, extract the zip file
 14. Download `bot.py` from above
