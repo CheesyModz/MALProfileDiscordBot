@@ -1,5 +1,6 @@
 import discord
 import time
+from discord.ext.commands import Bot
 from selenium import webdriver
 
 BOT_PREFIX = ("??")
@@ -43,32 +44,23 @@ async def mal(ctx, Username):
     #     dayNum = day.text
     # emb.add_field(name = "Days", value = str(days), inline = True)
 
+    names_anime = ["Mean Score: ", "🟢 Watching: ", "🔵 Completed: ", "🟡 On-Hold: ", "🔴 Dropped: ",
+                "⚪ Plan to Watch: ", "Total Entries: ", "Rewatched: ", "Episodes: "]
+
     meanScore = driver.find_element_by_xpath('//*[@id="statistics"]/div[1]/div[1]/div[1]/div[2]/span[2]').text
-    emb.add_field(name = "Mean Score: ", value = meanScore, inline = True)
-
     watching = driver.find_element_by_xpath('//*[@id="statistics"]/div[1]/div[1]/div[3]/ul[1]/li[1]/span').text
-    emb.add_field(name = "Watching: ", value = watching, inline = True)
-
     completed = driver.find_element_by_xpath('//*[@id="statistics"]/div[1]/div[1]/div[3]/ul[1]/li[2]/span').text
-    emb.add_field(name = "Completed: ", value = completed, inline = True)
-
     onHold = driver.find_element_by_xpath('//*[@id="statistics"]/div[1]/div[1]/div[3]/ul[1]/li[3]/span').text
-    emb.add_field(name = "On-Hold: ", value = onHold, inline = True)
-
     dropped = driver.find_element_by_xpath('//*[@id="statistics"]/div[1]/div[1]/div[3]/ul[1]/li[4]/span').text
-    emb.add_field(name = "Dropped: ", value = dropped, inline = True)
-
     planToWatch = driver.find_element_by_xpath('//*[@id="statistics"]/div[1]/div[1]/div[3]/ul[1]/li[5]/span').text
-    emb.add_field(name = "Plan to Watch: ", value = planToWatch, inline = True)
-
     totalEntries = driver.find_element_by_xpath('//*[@id="statistics"]/div[1]/div[1]/div[3]/ul[2]/li[1]/span[2]').text
-    emb.add_field(name = "Total Entries: ", value = totalEntries, inline = True)
-
     rewatched = driver.find_element_by_xpath('//*[@id="statistics"]/div[1]/div[1]/div[3]/ul[2]/li[2]/span[2]').text
-    emb.add_field(name = "Rewatched: ", value = rewatched, inline = True)
-
     episodes = driver.find_element_by_xpath('//*[@id="statistics"]/div[1]/div[1]/div[3]/ul[2]/li[3]/span[2]').text
-    emb.add_field(name = "Episodes: ", value = episodes, inline = True)
+
+    values = [ meanScore, watching, completed, onHold, dropped, planToWatch, totalEntries, rewatched, episodes]
+
+    for i in range(0, len(names_anime)):
+        emb.add_field(name = names_anime[i], value = values[i], inline = True)
 
     emb.set_footer(text=f"Information provided by MAL {url}")
 
