@@ -14,6 +14,8 @@ Once you have everything set up, type the command `??mal username`
 
 For example `??mal CheeseyModz`
 
+# Preview
+![Preview](https://user-images.githubusercontent.com/49135331/141496397-4d52e781-10bf-4c85-ac7f-18f05be9fe9f.png)
 
 # How to install and run (Windows Users)
 1. Download python
