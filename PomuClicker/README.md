@@ -1,10 +1,8 @@
 # PomuClicker
 This a auto clicker for the website https://impomu.com/
 
-
 # How to use
 Once you have everything set up, simply run `clickerPomu.py`
-
 
 # How to install and run (Windows Users)
 1. Download python
@@ -19,3 +17,9 @@ Once you have everything set up, simply run `clickerPomu.py`
 10. Download the ChromeDriver accordingly to your chrome version and operating system
 11. One you have the file, extract the zip file
 12. Run `clickerPomu.py`
+
+# Contact - For issues/support
+Email: Garyhuang325@gmail.com
+
+Discord: @ƙag ItsCheeseModz#1997
+
