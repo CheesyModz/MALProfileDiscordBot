@@ -40,3 +40,8 @@ For example `??mal CheeseyModz`
 Why skip installing selenium and chrome driver if you host this bot on Heroku?
 
 The main reason for that is that Heroku's servers does not supply chrome web driver therefore meaning heroku cant have selenium
+
+# Contact - For issues/support
+Email: Garyhuang325@gmail.com
+
+Discord: @ƙag ItsCheeseModz#1997
