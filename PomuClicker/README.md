@@ -4,6 +4,9 @@ This a auto clicker for the website https://impomu.com/
 # How to use
 Once you have everything set up, simply run `clickerPomu.py`
 
+# Preview
+![image](https://user-images.githubusercontent.com/49135331/144892414-c8d57e7a-a65c-4c91-bda8-80d371b43c10.png)
+
 # How to install and run (Windows Users)
 1. Download python
 2. Open command promopt
