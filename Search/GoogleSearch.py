@@ -8,7 +8,7 @@ import time
 # Get user input for google search
 find = input("Enter what you want to search for: ")
 
-PATH = 'Search/chromedriver.exe'
+PATH = 'chromedriver.exe'
 options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(PATH, chrome_options=options)
 
