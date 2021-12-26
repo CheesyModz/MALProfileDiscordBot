@@ -2,7 +2,7 @@
 Google search for user input.
 
 # How to use
-Once you have everything set up, simply run `GoogleSearch.py` and enter what youu want to search for.
+Once you have everything set up, simply run `GoogleSearch.py` in an IDE and enter what youu want to search for.
 
 # Preview
 ![image](https://user-images.githubusercontent.com/49135331/147413736-3f87b911-94ee-4624-b43a-a78dea35e6d6.png)
