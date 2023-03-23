@@ -5,6 +5,7 @@ This a auto clicker for the website http://orteil.dashnet.org/cookieclicker/
 Once you have everything set up, simply run `clicker.py`
 
 # Preview
+![image](https://user-images.githubusercontent.com/49135331/227240372-35377df5-90a2-4810-b0cf-46bf45f34da4.png)
 
 
 # How to install and run (Windows Users)
