@@ -10,7 +10,7 @@ Once you have everything set up, simply run `clickerPomu.py`
 # How to install and run (Windows Users)
 1. Download python
 2. Open command promopt
-3. Type `pip` If you get an error, you have to config pip otherwise move onto step 5
+3. Type `pip` If you get an error, you have to config pip
 4. Type `pip install selenium`
 5. Install Google Chrome
 6. At the top, press the 3 dots
