@@ -24,5 +24,5 @@ Once you have everything set up, simply run `GoogleSearch.py` in an IDE and ente
 # Contact - For issues/support
 Email: Garyhuang325@gmail.com
 
-Discord: @ƙag ItsCheeseModz#1997
+Discord: @ƙag ItsCheeseModz
 

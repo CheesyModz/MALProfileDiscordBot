@@ -12,4 +12,4 @@ Example: In `CookieClicker.py` we would change `PATH = 'chromedriver.exe` to ``P
 # Contact - For issues/support
 Email: Garyhuang325@gmail.com
 
-Discord: @ƙag ItsCheeseModz#1997
+Discord: @ƙag ItsCheeseModz

@@ -28,5 +28,5 @@ Type `q`to quit and close browser
 # Contact - For issues/support
 Email: Garyhuang325@gmail.com
 
-Discord: @ƙag ItsCheeseModz#1997
+Discord: @ƙag ItsCheeseModz
 

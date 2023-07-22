@@ -44,4 +44,4 @@ The main reason for that is that Heroku's servers does not supply chrome web dri
 # Contact - For issues/support
 Email: Garyhuang325@gmail.com
 
-Discord: @ƙag ItsCheeseModz#1997
+Discord: @ƙag ItsCheeseModz

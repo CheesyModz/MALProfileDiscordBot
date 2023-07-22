@@ -36,5 +36,5 @@ Once the page has loaded, you enter the try the following commands:
 # Contact - For issues/support
 Email: Garyhuang325@gmail.com
 
-Discord: @ƙag ItsCheeseModz#1997
+Discord: @ƙag ItsCheeseModz
 
